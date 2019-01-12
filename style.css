@@ -35,3 +35,66 @@
 .footer-height{height: 200px}
 .big-footer-height{height: 100px}
 
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-ul li{
+    float: left;
+    list-style-type: none;
+    border: 1px solid gray;
+}
+
+.main-ul li a{
+    display: block;
+    height: 47px;
+    width: 125px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+.main-ul li a:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
+
+.box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px 0 0 50px;
+    box-sizing: border-box;
+    /*border-radius: 0px 100px 0px 0px;*/
+    /*transform: scale(1);*/
+    /*transition: 2s;*/
+    animation: slider;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.box-1:hover{
+    transform: scale(1.5) rotate(45deg);
+}
+
+/*@keyframes slider {*/
+    /*0% { background-color: red; height: 200px; width: 200px}*/
+    /*25% { background-color: blue; height: 200px; width: 400px}*/
+    /*50% { background-color: green; height: 200px; width: 200px}*/
+    /*75% { background-color: yellow; height: 400px; width: 200px}*/
+    /*100% { background-color: red; height: 200px; width: 200px}*/
+/*}*/
+
+/*@keyframes slider {*/
+    /*0% { background-color: red; transform: scale(1) rotate(0deg)}*/
+    /*25% { background-color: blue; transform: scale(1.5) rotate(90deg)}*/
+    /*50% { background-color: green;transform: scale(1) rotate(180deg) }*/
+    /*75% { background-color: yellow;transform: scale(1.5) rotate(360deg) }*/
+    /*100% { background-color: red; transform: scale(1) rotate(0deg)}*/
+/*}*/
+
