@@ -9,125 +9,167 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                        <div class="container">
-                            <a href="" class="navbar-brand">
-                                <img src="images/logo.png" alt="" height="50px"/>
-                            </a>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                                <a href="" class="navbar-brand">
+                                    <img src="images/logo.png" height="50px"/>
+                                </a>
 
-                            <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="mainMenu">
-                                <ul class="navbar-nav mr-auto">
-                                    <li><a href="" class="nav-link">Home</a> </li>
-                                    <li><a href="" class="nav-link">About</a> </li>
-                                    <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
-                                        <ul class="dropdown-menu bg-dark">
-                                            <li><a href="" class="nav-link">Service 1</a> </li>
-                                            <li><a href="" class="nav-link">Service 1</a> </li>
-                                            <li><a href="" class="nav-link">Service 1</a> </li>
-                                            <li><a href="" class="nav-link">Service 1</a> </li>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="mainMenu">
+                                    <div class="mr-auto">
+                                        <ul class="navbar-nav">
+                                            <li><a class="nav-link" href="">Home</a></li>
+                                            <li><a class="nav-link" href="">About</a></li>
+                                            <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Service</a>
+                                                <ul class="dropdown-menu bg-dark">
+                                                    <li><a class="nav-link" href="">Service One</a></li>
+                                                    <li><a class="nav-link" href="">Service Two</a></li>
+                                                    <li><a class="nav-link" href="">Service Three</a></li>
+                                                    <li><a class="nav-link" href="">Service Four</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="nav-link" href="">Contact</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="" class="nav-link">Contact</a> </li>
-                                    <li><a href="" class="nav-link">Gallery</a> </li>
-                                </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="navbar-nav">
+                                            <li><a class="nav-link" href="" data-target="#loginModal" data-toggle="modal">Login</a></li>
+                                            <li><a class="nav-link" href="">Sign Up</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
 
-                                <ul class="navbar-nav">
-                                    <li><a href="#modal" class="nav-link" data-toggle="modal">Login</a> </li>
-                                    <li><a href="" class="nav-link">Sign Up</a> </li>
-                                </ul>
+                        <div class="col-sm-12">
+                            <div id="slide" class="carousel slide" data-ride="carousel" data-interval="1500" style="border: 5px solid gray">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#slide" data-slide-to="0"></li>
+                                    <li data-target="#slide" data-slide-to="1"></li>
+                                    <li data-target="#slide" data-slide-to="2"></li>
+                                    <li data-target="#slide" data-slide-to="3"></li>
+                                    <li data-target="#slide" data-slide-to="4"></li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img src="images/1.jpg" class="w-100" height="400px">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img src="images/2.jpg" class="w-100" height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/3.jpg" class="w-100" height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/4.png" class="w-100" height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/5.jpg" class="w-100" height="400px">
+                                    </div>
+                                </div>
+
+                                <a href="" class="carousel-control-prev" data-target="#slide" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a href="" class="carousel-control-next" data-target="#slide" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
                             </div>
                         </div>
-                    </nav>
-                </div>
 
-                <div class="modal fade" id="modal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3>modal header</h3>
-                                <button type="button" class="close" data-dismiss="modal">
-                                    &Cross;
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>modal body</h3>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <img src="images/1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-text">this is heading</h5>
+                                            <p class="card-text">This is paragraph.This is paragraph.This is paragraph.This is paragraph.</p>
+                                            <a href="" class="btn btn-success">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <img src="images/1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-text">this is heading</h5>
+                                            <p class="card-text">This is paragraph.This is paragraph.This is paragraph.This is paragraph.</p>
+                                            <a href="" class="btn btn-success">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <img src="images/1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-text">this is heading</h5>
+                                            <p class="card-text">This is paragraph.This is paragraph.This is paragraph.This is paragraph.</p>
+                                            <a href="" class="btn btn-success">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <img src="images/1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-text">this is heading</h5>
+                                            <p class="card-text">This is paragraph.This is paragraph.This is paragraph.This is paragraph.</p>
+                                            <a href="" class="btn btn-success">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-               <div class="container">
-                   <div class="row">
-                       <div class="col-sm-12">
-                           <div id="mainSlide" style="border: 5px solid gray" class="carousel slide" data-ride="carousel" data-interval="1500">
-                               <ol class="carousel-indicators">
-                                   <li data-target="#mainSlide" data-slide-to="0"></li>
-                                   <li data-target="#mainSlide" data-slide-to="1"></li>
-                                   <li data-target="#mainSlide" data-slide-to="2"></li>
-                                   <li data-target="#mainSlide" data-slide-to="3"></li>
-                                   <li data-target="#mainSlide" data-slide-to="4"></li>
-                               </ol>
-                               <div class="carousel-inner">
-                                   <div class="carousel-item active">
-                                       <img src="images/1.jpg" class="w-100" height="300">
-                                       <div class="carousel-caption">
-                                           <h3>Caption</h3>
-                                           <p>Caption goes here</p>
-                                       </div>
-                                   </div>
-                                   <div class="carousel-item">
-                                       <img src="images/2.jpg" class="w-100" height="300">
-                                       <div class="carousel-caption">
-                                           <h3>Caption</h3>
-                                           <p>Caption goes here</p>
-                                       </div>
-                                   </div>
-                                   <div class="carousel-item">
-                                       <img src="images/3.jpg" class="w-100" height="300">
-                                       <div class="carousel-caption">
-                                           <h3>Caption</h3>
-                                           <p>Caption goes here</p>
-                                       </div>
-                                   </div>
-                                   <div class="carousel-item">
-                                       <img src="images/4.png" class="w-100" height="300">
-                                       <div class="carousel-caption">
-                                           <h3>Caption</h3>
-                                           <p>Caption goes here</p>
-                                       </div>
-                                   </div>
-                                   <div class="carousel-item">
-                                       <img src="images/5.jpg" class="w-100" height="300">
-                                       <div class="carousel-caption">
-                                           <h3>Caption</h3>
-                                           <p>Caption goes here</p>
-                                       </div>
-                                   </div>
-                               </div>
-                               <a href="#mainSlide" class="carousel-control-prev" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                               </a>
-                               <a href="#mainSlide" class="carousel-control-next" data-slide="next">
-                                   <span class="carousel-control-next-icon"></span>
-                               </a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-
-
-
             </div>
         </div>
 
 
+
+        <div class="modal fade" id="loginModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Login Form</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-sm-3">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="email" name="email" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-3">
+                                    <label>Password</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <input type="password" name="password" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="submit" name="submit" value="Login" class="btn btn-success offset-3 " required/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <script src="js/jquery-3.3.1.js"></script>
